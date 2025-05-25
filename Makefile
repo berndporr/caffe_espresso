@@ -357,19 +357,6 @@ upgrade_solver_proto_text/fast:
 .PHONY : upgrade_solver_proto_text/fast
 
 #=============================================================================
-# Target rules for targets named convert_cifar_data
-
-# Build rule for target.
-convert_cifar_data: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 convert_cifar_data
-.PHONY : convert_cifar_data
-
-# fast build rule for target.
-convert_cifar_data/fast:
-	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/convert_cifar_data.dir/build.make examples/CMakeFiles/convert_cifar_data.dir/build
-.PHONY : convert_cifar_data/fast
-
-#=============================================================================
 # Target rules for targets named classification
 
 # Build rule for target.
@@ -381,32 +368,6 @@ classification: cmake_check_build_system
 classification/fast:
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/classification.dir/build.make examples/CMakeFiles/classification.dir/build
 .PHONY : classification/fast
-
-#=============================================================================
-# Target rules for targets named convert_mnist_data
-
-# Build rule for target.
-convert_mnist_data: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 convert_mnist_data
-.PHONY : convert_mnist_data
-
-# fast build rule for target.
-convert_mnist_data/fast:
-	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/convert_mnist_data.dir/build.make examples/CMakeFiles/convert_mnist_data.dir/build
-.PHONY : convert_mnist_data/fast
-
-#=============================================================================
-# Target rules for targets named convert_mnist_siamese_data
-
-# Build rule for target.
-convert_mnist_siamese_data: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 convert_mnist_siamese_data
-.PHONY : convert_mnist_siamese_data
-
-# fast build rule for target.
-convert_mnist_siamese_data/fast:
-	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/convert_mnist_siamese_data.dir/build.make examples/CMakeFiles/convert_mnist_siamese_data.dir/build
-.PHONY : convert_mnist_siamese_data/fast
 
 # Help Target
 help:
@@ -429,10 +390,7 @@ help:
 	@echo "... caffeproto"
 	@echo "... classification"
 	@echo "... compute_image_mean"
-	@echo "... convert_cifar_data"
 	@echo "... convert_imageset"
-	@echo "... convert_mnist_data"
-	@echo "... convert_mnist_siamese_data"
 	@echo "... extract_features"
 	@echo "... gtest"
 	@echo "... test.testbin"
