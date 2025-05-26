@@ -44,7 +44,7 @@ namespace caffe {
 template <typename Dtype>
 class RTLossLayer : public LossLayer<Dtype> {
  public:
-  explicit SigmoidCrossEntropyLossLayer(const LayerParameter& param)
+  explicit RTLossLayer(const LayerParameter& param)
       : LossLayer<Dtype>(param),
           sigmoid_layer_(new SigmoidLayer<Dtype>(param)),
           sigmoid_output_(new Blob<Dtype>()) {}
