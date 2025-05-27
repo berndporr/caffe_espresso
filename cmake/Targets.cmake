@@ -55,23 +55,23 @@ function(caffe_pickup_caffe_sources root)
   caffe_source_group("Include"        GLOB "${root}/include/caffe/*.h*")
   caffe_source_group("Include\\Util"  GLOB "${root}/include/caffe/util/*.h*")
   caffe_source_group("Include"        GLOB "${PROJECT_BINARY_DIR}/caffe_config.h*")
-  caffe_source_group("Source"         GLOB "${root}/src/caffe/*.cpp")
-  caffe_source_group("Source\\Util"   GLOB "${root}/src/caffe/util/*.cpp")
-  caffe_source_group("Source\\Layers" GLOB "${root}/src/caffe/layers/*.cpp")
-  caffe_source_group("Source\\Cuda"   GLOB "${root}/src/caffe/layers/*.cu")
-  caffe_source_group("Source\\Cuda"   GLOB "${root}/src/caffe/util/*.cu")
-  caffe_source_group("Source\\Proto"  GLOB "${root}/src/caffe/proto/*.proto")
+  caffe_source_group("Source"         GLOB "${root}/src/*.cpp")
+  caffe_source_group("Source\\Util"   GLOB "${root}/src/util/*.cpp")
+  caffe_source_group("Source\\Layers" GLOB "${root}/src/layers/*.cpp")
+  caffe_source_group("Source\\Cuda"   GLOB "${root}/src/layers/*.cu")
+  caffe_source_group("Source\\Cuda"   GLOB "${root}/src/util/*.cu")
+  caffe_source_group("Source\\Proto"  GLOB "${root}/src/proto/*.proto")
 
   # source groups for test target
   caffe_source_group("Include"      GLOB "${root}/include/caffe/test/test_*.h*")
-  caffe_source_group("Source"       GLOB "${root}/src/caffe/test/test_*.cpp")
-  caffe_source_group("Source\\Cuda" GLOB "${root}/src/caffe/test/test_*.cu")
+  caffe_source_group("Source"       GLOB "${root}/src/test/test_*.cpp")
+  caffe_source_group("Source\\Cuda" GLOB "${root}/src/test/test_*.cu")
 
   # collect files
   file(GLOB test_hdrs    ${root}/include/caffe/test/test_*.h*)
-  file(GLOB test_srcs    ${root}/src/caffe/test/test_*.cpp)
+  file(GLOB test_srcs    ${root}/src/test/test_*.cpp)
   file(GLOB_RECURSE hdrs ${root}/include/caffe/*.h*)
-  file(GLOB_RECURSE srcs ${root}/src/caffe/*.cpp)
+  file(GLOB_RECURSE srcs ${root}/src/*.cpp)
   list(REMOVE_ITEM  hdrs ${test_hdrs})
   list(REMOVE_ITEM  srcs ${test_srcs})
 
@@ -80,12 +80,12 @@ function(caffe_pickup_caffe_sources root)
   list(APPEND test_srcs ${test_hdrs})
 
   # collect cuda files
-  file(GLOB    test_cuda ${root}/src/caffe/test/test_*.cu)
-  file(GLOB_RECURSE cuda ${root}/src/caffe/*.cu)
+  file(GLOB    test_cuda ${root}/src/test/test_*.cu)
+  file(GLOB_RECURSE cuda ${root}/src/*.cu)
   list(REMOVE_ITEM  cuda ${test_cuda})
 
   # add proto to make them editable in IDEs too
-  file(GLOB_RECURSE proto_files ${root}/src/caffe/*.proto)
+  file(GLOB_RECURSE proto_files ${root}/src/*.proto)
   list(APPEND srcs ${proto_files})
 
   # convert to absolute paths

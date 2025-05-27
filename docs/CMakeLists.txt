@@ -35,32 +35,6 @@ function(gather_readmes_as_prebuild_cmd target gathered_dir root)
 endfunction()
 
 ################################################################################################
-# Gather docs from examples/*.ipynb and add YAML front-matter.
-function(gather_notebooks_as_prebuild_cmd target gathered_dir root)
-  set(full_gathered_dir ${root}/${gathered_dir})
-
-  if(NOT PYTHON_EXECUTABLE)
-    message(STATUS "Python interpeter is not found. Can't include *.ipynb files in docs. Skipping...")
-    return()
-  endif()
-
-  file(GLOB_RECURSE notebooks ${root}/examples/*.ipynb)
-  foreach(file ${notebooks})
-    file(RELATIVE_PATH file ${root} ${file})
-    set(new_filename ${full_gathered_dir}/${file})
-
-    get_filename_component(new_folder ${new_filename} PATH)
-    add_custom_command(TARGET ${target} PRE_BUILD
-      COMMAND ${CMAKE_COMMAND} -E make_directory ${new_folder}
-      COMMAND ${PYTHON_EXECUTABLE} scripts/copy_notebook.py ${file} ${new_filename}
-      COMMENT "Copying notebook ${file} to ${new_filename}"
-      WORKING_DIRECTORY ${root} VERBATIM)
-  endforeach()
-
-  set(${outputs_var} ${outputs} PARENT_SCOPE)
-endfunction()
-
-################################################################################################
 ########################## [ Non macro part ] ##################################################
 
 # Gathering is done at each 'make doc'
@@ -75,7 +49,6 @@ add_custom_target(docs COMMAND ${DOXYGEN_EXECUTABLE} ${DOXYGEN_config_file}
                        COMMENT "Launching doxygen..." VERBATIM)
 
 # Gathering examples into docs subfolder
-gather_notebooks_as_prebuild_cmd(docs docs/gathered ${PROJECT_SOURCE_DIR})
 gather_readmes_as_prebuild_cmd(docs docs/gathered  ${PROJECT_SOURCE_DIR})
 
 # Auto detect output directory
