@@ -26,7 +26,7 @@ liblmdb-dev lmdb-doc
 libsnappy-dev snappy-tools ubuntu-snappy ubuntu-snappy-cli
 libatlas-base-dev
 libgoogle-glog-dev
-
+hdf5-helpers libhdf5-dev 
 
 ## License and Citation
 
