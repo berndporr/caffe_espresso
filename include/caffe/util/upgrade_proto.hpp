@@ -3,7 +3,7 @@
 
 #include <string>
 
-#include "caffe/proto/caffe.pb.h"
+#include "src/caffe.pb.h"
 
 namespace caffe {
 

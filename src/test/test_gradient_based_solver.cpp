@@ -9,7 +9,7 @@
 
 #include "caffe/common.hpp"
 #include "caffe/parallel.hpp"
-#include "caffe/proto/caffe.pb.h"
+#include "src/caffe.pb.h"
 #include "caffe/sgd_solvers.hpp"
 #include "caffe/util/io.hpp"
 

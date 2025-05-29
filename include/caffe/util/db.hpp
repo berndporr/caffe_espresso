@@ -4,7 +4,7 @@
 #include <string>
 
 #include "caffe/common.hpp"
-#include "caffe/proto/caffe.pb.h"
+#include "src/caffe.pb.h"
 
 namespace caffe { namespace db {
 

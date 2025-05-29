@@ -9,7 +9,7 @@
 #include "caffe/blob.hpp"
 #include "caffe/common.hpp"
 #include "caffe/layers/hdf5_data_layer.hpp"
-#include "caffe/proto/caffe.pb.h"
+#include "src/caffe.pb.h"
 
 #include "caffe/test/test_caffe_main.hpp"
 
