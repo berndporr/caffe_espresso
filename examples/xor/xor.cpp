@@ -8,7 +8,7 @@
 
 int main()
 {
-    float *data = new float[64*1*2*400];
+    float *data = new float[64*1*3*400];
     float *label = new float[64*1*1*400];
     
     
