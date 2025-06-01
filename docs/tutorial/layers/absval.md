@@ -5,7 +5,7 @@ title: Absolute Value Layer
 # Absolute Value Layer
 
 * Layer type: `AbsVal`
-* [Doxygen Documentation](http://caffe.berkeleyvision.org/doxygen/classcaffe_1_1AbsValLayer.html)
+* [Doxygen Documentation](http://caffe.berkeleyvision.org/doxygen/classcaffe_1_1AbsValLayer.md)
 * Header: [`./include/caffe/layers/absval_layer.hpp`](https://github.com/BVLC/caffe/blob/master/include/caffe/layers/absval_layer.hpp)
 * CPU implementation: [`./src/caffe/layers/absval_layer.cpp`](https://github.com/BVLC/caffe/blob/master/src/caffe/layers/absval_layer.cpp)
 * CUDA GPU implementation: [`./src/caffe/layers/absval_layer.cu`](https://github.com/BVLC/caffe/blob/master/src/caffe/layers/absval_layer.cu)

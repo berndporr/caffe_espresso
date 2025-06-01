@@ -5,7 +5,7 @@ title: Reduction Layer
 # Reduction Layer
 
 * Layer type: `Reduction`
-* [Doxygen Documentation](http://caffe.berkeleyvision.org/doxygen/classcaffe_1_1ReductionLayer.html)
+* [Doxygen Documentation](http://caffe.berkeleyvision.org/doxygen/classcaffe_1_1ReductionLayer.md)
 * Header: [`./include/caffe/layers/reduction_layer.hpp`](https://github.com/BVLC/caffe/blob/master/include/caffe/layers/reduction_layer.hpp)
 * CPU implementation: [`./src/caffe/layers/reduction_layer.cpp`](https://github.com/BVLC/caffe/blob/master/src/caffe/layers/reduction_layer.cpp)
 * CUDA GPU implementation: [`./src/caffe/layers/reduction_layer.cu`](https://github.com/BVLC/caffe/blob/master/src/caffe/layers/reduction_layer.cu)

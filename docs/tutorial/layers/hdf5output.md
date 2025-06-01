@@ -5,7 +5,7 @@ title: HDF5 Output Layer
 # HDF5 Output Layer
 
 * Layer type: `HDF5Output`
-* [Doxygen Documentation](http://caffe.berkeleyvision.org/doxygen/classcaffe_1_1HDF5OutputLayer.html)
+* [Doxygen Documentation](http://caffe.berkeleyvision.org/doxygen/classcaffe_1_1HDF5OutputLayer.md)
 * Header: [`./include/caffe/layers/hdf5_output_layer.hpp`](https://github.com/BVLC/caffe/blob/master/include/caffe/layers/hdf5_output_layer.hpp)
 * CPU implementation: [`./src/caffe/layers/hdf5_output_layer.cpp`](https://github.com/BVLC/caffe/blob/master/src/caffe/layers/hdf5_output_layer.cpp)
 * CUDA GPU implementation: [`./src/caffe/layers/hdf5_output_layer.cu`](https://github.com/BVLC/caffe/blob/master/src/caffe/layers/hdf5_output_layer.cu)

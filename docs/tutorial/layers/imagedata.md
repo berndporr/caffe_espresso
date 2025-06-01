@@ -5,7 +5,7 @@ title: ImageData Layer
 # ImageData Layer
 
 * Layer type: `ImageData`
-* [Doxygen Documentation](http://caffe.berkeleyvision.org/doxygen/classcaffe_1_1ImageDataLayer.html)
+* [Doxygen Documentation](http://caffe.berkeleyvision.org/doxygen/classcaffe_1_1ImageDataLayer.md)
 * Header: [`./include/caffe/layers/image_data_layer.hpp`](https://github.com/BVLC/caffe/blob/master/include/caffe/layers/image_data_layer.hpp)
 * CPU implementation: [`./src/caffe/layers/image_data_layer.cpp`](https://github.com/BVLC/caffe/blob/master/src/caffe/layers/image_data_layer.cpp)
 

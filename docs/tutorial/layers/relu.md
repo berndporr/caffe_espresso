@@ -5,7 +5,7 @@ title: ReLU / Rectified-Linear and Leaky-ReLU Layer
 # ReLU / Rectified-Linear and Leaky-ReLU Layer
 
 * Layer type: `ReLU`
-* [Doxygen Documentation](http://caffe.berkeleyvision.org/doxygen/classcaffe_1_1ReLULayer.html)
+* [Doxygen Documentation](http://caffe.berkeleyvision.org/doxygen/classcaffe_1_1ReLULayer.md)
 * Header: [`./include/caffe/layers/relu_layer.hpp`](https://github.com/BVLC/caffe/blob/master/include/caffe/layers/relu_layer.hpp)
 * CPU implementation: [`./src/caffe/layers/relu_layer.cpp`](https://github.com/BVLC/caffe/blob/master/src/caffe/layers/relu_layer.cpp)
 * CUDA GPU implementation: [`./src/caffe/layers/relu_layer.cu`](https://github.com/BVLC/caffe/blob/master/src/caffe/layers/relu_layer.cu)

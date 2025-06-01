@@ -5,7 +5,7 @@ title: ELU Layer
 # ELU Layer
 
 * Layer type: `ELU`
-* [Doxygen Documentation](http://caffe.berkeleyvision.org/doxygen/classcaffe_1_1ELULayer.html)
+* [Doxygen Documentation](http://caffe.berkeleyvision.org/doxygen/classcaffe_1_1ELULayer.md)
 * Header: [`./include/caffe/layers/elu_layer.hpp`](https://github.com/BVLC/caffe/blob/master/include/caffe/layers/elu_layer.hpp)
 * CPU implementation: [`./src/caffe/layers/elu_layer.cpp`](https://github.com/BVLC/caffe/blob/master/src/caffe/layers/elu_layer.cpp)
 * CUDA GPU implementation: [`./src/caffe/layers/elu_layer.cu`](https://github.com/BVLC/caffe/blob/master/src/caffe/layers/elu_layer.cu)

@@ -4,7 +4,7 @@ title: Reshape Layer
 
 # Reshape Layer
 * Layer type: `Reshape`
-* [Doxygen Documentation](http://caffe.berkeleyvision.org/doxygen/classcaffe_1_1ReshapeLayer.html)
+* [Doxygen Documentation](http://caffe.berkeleyvision.org/doxygen/classcaffe_1_1ReshapeLayer.md)
 * Header: [`./include/caffe/layers/reshape_layer.hpp`](https://github.com/BVLC/caffe/blob/master/include/caffe/layers/reshape_layer.hpp)
 * Implementation: [`./src/caffe/layers/reshape_layer.cpp`](https://github.com/BVLC/caffe/blob/master/src/caffe/layers/reshape_layer.cpp)
 

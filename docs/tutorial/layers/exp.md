@@ -5,7 +5,7 @@ title: Exponential Layer
 # Exponential Layer
 
 * Layer type: `Exp`
-* [Doxygen Documentation](http://caffe.berkeleyvision.org/doxygen/classcaffe_1_1ExpLayer.html)
+* [Doxygen Documentation](http://caffe.berkeleyvision.org/doxygen/classcaffe_1_1ExpLayer.md)
 * Header: [`./include/caffe/layers/exp_layer.hpp`](https://github.com/BVLC/caffe/blob/master/include/caffe/layers/exp_layer.hpp)
 * CPU implementation: [`./src/caffe/layers/exp_layer.cpp`](https://github.com/BVLC/caffe/blob/master/src/caffe/layers/exp_layer.cpp)
 * CUDA GPU implementation: [`./src/caffe/layers/exp_layer.cu`](https://github.com/BVLC/caffe/blob/master/src/caffe/layers/exp_layer.cu)
@@ -21,4 +21,4 @@ title: Exponential Layer
 
 ## See also
 
-* [Power layer](power.html)
+* [Power layer](power.md)

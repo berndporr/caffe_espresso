@@ -5,7 +5,7 @@ title: Python Layer
 # Python Layer
 
 * Layer type: `Python`
-* [Doxygen Documentation](http://caffe.berkeleyvision.org/doxygen/classcaffe_1_1PythonLayer.html)
+* [Doxygen Documentation](http://caffe.berkeleyvision.org/doxygen/classcaffe_1_1PythonLayer.md)
 * Header: [`./include/caffe/layers/python_layer.hpp`](https://github.com/BVLC/caffe/blob/master/include/caffe/layers/python_layer.hpp)
 
 The Python layer allows users to add customized layers without modifying the Caffe core code.

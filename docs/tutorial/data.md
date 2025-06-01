@@ -3,7 +3,7 @@ title: Data
 ---
 # Data: Ins and Outs
 
-Data flows through Caffe as [Blobs](net_layer_blob.html#blob-storage-and-communication).
+Data flows through Caffe as [Blobs](net_layer_blob.md#blob-storage-and-communication).
 Data layers load input and save output by converting to and from Blob to other formats.
 Common transformations like mean-subtraction and feature-scaling are done by data layer configuration.
 New input types are supported by developing a new data layer -- the rest of the Net follows by the modularity of the Caffe layer catalogue.
@@ -71,7 +71,7 @@ The (data, label) pairing is a convenience for classification models.
 
 ## Formats
 
-Refer to the layer catalogue of [data layers](layers.html#data-layers) for close-ups on each type of data Caffe understands.
+Refer to the layer catalogue of [data layers](layers.md#data-layers) for close-ups on each type of data Caffe understands.
 
 ## Deployment Input
 

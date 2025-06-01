@@ -5,7 +5,7 @@ title: Split Layer
 # Split Layer
 
 * Layer type: `Split`
-* [Doxygen Documentation](http://caffe.berkeleyvision.org/doxygen/classcaffe_1_1SplitLayer.html)
+* [Doxygen Documentation](http://caffe.berkeleyvision.org/doxygen/classcaffe_1_1SplitLayer.md)
 * Header: [`./include/caffe/layers/split_layer.hpp`](https://github.com/BVLC/caffe/blob/master/include/caffe/layers/split_layer.hpp)
 * CPU implementation: [`./src/caffe/layers/split_layer.cpp`](https://github.com/BVLC/caffe/blob/master/src/caffe/layers/split_layer.cpp)
 * CUDA GPU implementation: [`./src/caffe/layers/split_layer.cu`](https://github.com/BVLC/caffe/blob/master/src/caffe/layers/split_layer.cu)

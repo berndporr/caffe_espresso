@@ -5,7 +5,7 @@ title: Concat Layer
 # Concat Layer
 
 * Layer type: `Concat`
-* [Doxygen Documentation](http://caffe.berkeleyvision.org/doxygen/classcaffe_1_1ConcatLayer.html)
+* [Doxygen Documentation](http://caffe.berkeleyvision.org/doxygen/classcaffe_1_1ConcatLayer.md)
 * Header: [`./include/caffe/layers/concat_layer.hpp`](https://github.com/BVLC/caffe/blob/master/include/caffe/layers/concat_layer.hpp)
 * CPU implementation: [`./src/caffe/layers/concat_layer.cpp`](https://github.com/BVLC/caffe/blob/master/src/caffe/layers/concat_layer.cpp)
 * CUDA GPU implementation: [`./src/caffe/layers/concat_layer.cu`](https://github.com/BVLC/caffe/blob/master/src/caffe/layers/concat_layer.cu)

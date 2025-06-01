@@ -3,9 +3,9 @@ title: Blobs, Layers, and Nets
 ---
 # Blobs, Layers, and Nets: anatomy of a Caffe model
 
-Deep networks are compositional models that are naturally represented as a collection of inter-connected layers that work on chunks of data. Caffe defines a net layer-by-layer in its own model schema. The network defines the entire model bottom-to-top from input data to loss. As data and derivatives flow through the network in the [forward and backward passes](forward_backward.html) Caffe stores, communicates, and manipulates the information as *blobs*: the blob is the standard array and unified memory interface for the framework. The layer comes next as the foundation of both model and computation. The net follows as the collection and connection of layers. The details of blob describe how information is stored and communicated in and across layers and nets.
+Deep networks are compositional models that are naturally represented as a collection of inter-connected layers that work on chunks of data. Caffe defines a net layer-by-layer in its own model schema. The network defines the entire model bottom-to-top from input data to loss. As data and derivatives flow through the network in the [forward and backward passes](forward_backward.md) Caffe stores, communicates, and manipulates the information as *blobs*: the blob is the standard array and unified memory interface for the framework. The layer comes next as the foundation of both model and computation. The net follows as the collection and connection of layers. The details of blob describe how information is stored and communicated in and across layers and nets.
 
-[Solving](solver.html) is configured separately to decouple modeling and optimization.
+[Solving](solver.md) is configured separately to decouple modeling and optimization.
 
 We will go over the details of these components in more detail.
 
@@ -61,7 +61,7 @@ If you want to check out when a Blob will copy data, here is an illustrative exa
 
 ## Layer computation and connections
 
-The layer is the essence of a model and the fundamental unit of computation. Layers convolve filters, pool, take inner products, apply nonlinearities like rectified-linear and sigmoid and other elementwise transformations, normalize, load data, and compute losses like softmax and hinge. [See the layer catalogue](layers.html) for all operations. Most of the types needed for state-of-the-art deep learning tasks are there.
+The layer is the essence of a model and the fundamental unit of computation. Layers convolve filters, pool, take inner products, apply nonlinearities like rectified-linear and sigmoid and other elementwise transformations, normalize, load data, and compute losses like softmax and hinge. [See the layer catalogue](layers.md) for all operations. Most of the types needed for state-of-the-art deep learning tasks are there.
 
 <img src="fig/layer.jpg" alt="A layer with bottom and top blob." width="256">
 

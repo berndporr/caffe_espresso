@@ -5,7 +5,7 @@ title: Database Layer
 # Database Layer
 
 * Layer type: `Data`
-* [Doxygen Documentation](http://caffe.berkeleyvision.org/doxygen/classcaffe_1_1DataLayer.html)
+* [Doxygen Documentation](http://caffe.berkeleyvision.org/doxygen/classcaffe_1_1DataLayer.md)
 * Header: [`./include/caffe/layers/data_layer.hpp`](https://github.com/BVLC/caffe/blob/master/include/caffe/layers/data_layer.hpp)
 * CPU implementation: [`./src/caffe/layers/data_layer.cpp`](https://github.com/BVLC/caffe/blob/master/src/caffe/layers/data_layer.cpp)
 

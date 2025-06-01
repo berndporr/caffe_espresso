@@ -5,7 +5,7 @@ title: Inner Product / Fully Connected Layer
 # Inner Product / Fully Connected Layer
 
 * Layer type: `InnerProduct`
-* [Doxygen Documentation](http://caffe.berkeleyvision.org/doxygen/classcaffe_1_1InnerProductLayer.html)
+* [Doxygen Documentation](http://caffe.berkeleyvision.org/doxygen/classcaffe_1_1InnerProductLayer.md)
 * Header: [`./include/caffe/layers/inner_product_layer.hpp`](https://github.com/BVLC/caffe/blob/master/include/caffe/layers/inner_product_layer.hpp)
 * CPU implementation: [`./src/caffe/layers/inner_product_layer.cpp`](https://github.com/BVLC/caffe/blob/master/src/caffe/layers/inner_product_layer.cpp)
 * CUDA GPU implementation: [`./src/caffe/layers/inner_product_layer.cu`](https://github.com/BVLC/caffe/blob/master/src/caffe/layers/inner_product_layer.cu)

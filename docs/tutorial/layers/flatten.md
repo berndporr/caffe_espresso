@@ -5,7 +5,7 @@ title: Flatten Layer
 # Flatten Layer
 
 * Layer type: `Flatten`
-* [Doxygen Documentation](http://caffe.berkeleyvision.org/doxygen/classcaffe_1_1FlattenLayer.html)
+* [Doxygen Documentation](http://caffe.berkeleyvision.org/doxygen/classcaffe_1_1FlattenLayer.md)
 * Header: [`./include/caffe/layers/flatten_layer.hpp`](https://github.com/BVLC/caffe/blob/master/include/caffe/layers/flatten_layer.hpp)
 * CPU implementation: [`./src/caffe/layers/flatten_layer.cpp`](https://github.com/BVLC/caffe/blob/master/src/caffe/layers/flatten_layer.cpp)
 

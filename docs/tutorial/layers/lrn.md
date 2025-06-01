@@ -5,7 +5,7 @@ title: Local Response Normalization (LRN)
 # Local Response Normalization (LRN)
 
 * Layer type: `LRN`
-* [Doxygen Documentation](http://caffe.berkeleyvision.org/doxygen/classcaffe_1_1LRNLayer.html)
+* [Doxygen Documentation](http://caffe.berkeleyvision.org/doxygen/classcaffe_1_1LRNLayer.md)
 * Header: [`./include/caffe/layers/lrn_layer.hpp`](https://github.com/BVLC/caffe/blob/master/include/caffe/layers/lrn_layer.hpp)
 * CPU Implementation: [`./src/caffe/layers/lrn_layer.cpp`](https://github.com/BVLC/caffe/blob/master/src/caffe/layers/lrn_layer.cpp)
 * CUDA GPU Implementation: [`./src/caffe/layers/lrn_layer.cu`](https://github.com/BVLC/caffe/blob/master/src/caffe/layers/lrn_layer.cu)

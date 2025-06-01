@@ -4,7 +4,7 @@ title: Pooling Layer
 # Pooling
 
 * Layer type: `Pooling`
-* [Doxygen Documentation](http://caffe.berkeleyvision.org/doxygen/classcaffe_1_1PoolingLayer.html)
+* [Doxygen Documentation](http://caffe.berkeleyvision.org/doxygen/classcaffe_1_1PoolingLayer.md)
 * Header: [`./include/caffe/layers/pooling_layer.hpp`](https://github.com/BVLC/caffe/blob/master/include/caffe/layers/pooling_layer.hpp)
 * CPU implementation: [`./src/caffe/layers/pooling_layer.cpp`](https://github.com/BVLC/caffe/blob/master/src/caffe/layers/pooling_layer.cpp)
 * CUDA GPU implementation: [`./src/caffe/layers/pooling_layer.cu`](https://github.com/BVLC/caffe/blob/master/src/caffe/layers/pooling_layer.cu)

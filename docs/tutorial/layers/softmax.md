@@ -5,7 +5,7 @@ title: Softmax Layer
 # Softmax Layer
 
 * Layer type: `Softmax`
-* [Doxygen Documentation](http://caffe.berkeleyvision.org/doxygen/classcaffe_1_1SoftmaxLayer.html)
+* [Doxygen Documentation](http://caffe.berkeleyvision.org/doxygen/classcaffe_1_1SoftmaxLayer.md)
 * Header: [`./include/caffe/layers/softmax_layer.hpp`](https://github.com/BVLC/caffe/blob/master/include/caffe/layers/softmax_layer.hpp)
 * CPU implementation: [`./src/caffe/layers/softmax_layer.cpp`](https://github.com/BVLC/caffe/blob/master/src/caffe/layers/softmax_layer.cpp)
 * CUDA GPU implementation: [`./src/caffe/layers/softmax_layer.cu`](https://github.com/BVLC/caffe/blob/master/src/caffe/layers/softmax_layer.cu)
@@ -21,4 +21,4 @@ title: Softmax Layer
 
 ## See also
 
-* [Softmax loss layer](softmaxwithloss.html)
+* [Softmax loss layer](softmaxwithloss.md)

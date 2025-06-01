@@ -5,7 +5,7 @@ title: Softmax with Loss Layer
 # Softmax with Loss Layer
 
 * Layer type: `SoftmaxWithLoss`
-* [Doxygen Documentation](http://caffe.berkeleyvision.org/doxygen/classcaffe_1_1SoftmaxWithLossLayer.html)
+* [Doxygen Documentation](http://caffe.berkeleyvision.org/doxygen/classcaffe_1_1SoftmaxWithLossLayer.md)
 * Header: [`./include/caffe/layers/softmax_loss_layer.hpp`](https://github.com/BVLC/caffe/blob/master/include/caffe/layers/softmax_loss_layer.hpp)
 * CPU implementation: [`./src/caffe/layers/softmax_loss_layer.cpp`](https://github.com/BVLC/caffe/blob/master/src/caffe/layers/softmax_loss_layer.cpp)
 * CUDA GPU implementation: [`./src/caffe/layers/softmax_loss_layer.cu`](https://github.com/BVLC/caffe/blob/master/src/caffe/layers/softmax_loss_layer.cu)
@@ -30,4 +30,4 @@ The softmax loss layer computes the multinomial logistic loss of the softmax of 
 
 ## See also
 
-* [Softmax layer](softmax.html)
+* [Softmax layer](softmax.md)

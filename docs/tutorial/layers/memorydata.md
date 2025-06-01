@@ -5,7 +5,7 @@ title: Memory Data Layer
 # Memory Data Layer
 
 * Layer type: `MemoryData`
-* [Doxygen Documentation](http://caffe.berkeleyvision.org/doxygen/classcaffe_1_1MemoryDataLayer.html)
+* [Doxygen Documentation](http://caffe.berkeleyvision.org/doxygen/classcaffe_1_1MemoryDataLayer.md)
 * Header: [`./include/caffe/layers/memory_data_layer.hpp`](https://github.com/BVLC/caffe/blob/master/include/caffe/layers/memory_data_layer.hpp)
 * CPU implementation: [`./src/caffe/layers/memory_data_layer.cpp`](https://github.com/BVLC/caffe/blob/master/src/caffe/layers/memory_data_layer.cpp)
 

@@ -5,7 +5,7 @@ title: PReLU Layer
 # PReLU Layer
 
 * Layer type: `PReLU`
-* [Doxygen Documentation](http://caffe.berkeleyvision.org/doxygen/classcaffe_1_1PReLULayer.html)
+* [Doxygen Documentation](http://caffe.berkeleyvision.org/doxygen/classcaffe_1_1PReLULayer.md)
 * Header: [`./include/caffe/layers/prelu_layer.hpp`](https://github.com/BVLC/caffe/blob/master/include/caffe/layers/prelu_layer.hpp)
 * CPU implementation: [`./src/caffe/layers/prelu_layer.cpp`](https://github.com/BVLC/caffe/blob/master/src/caffe/layers/prelu_layer.cpp)
 * CUDA GPU implementation: [`./src/caffe/layers/prelu_layer.cu`](https://github.com/BVLC/caffe/blob/master/src/caffe/layers/prelu_layer.cu)
