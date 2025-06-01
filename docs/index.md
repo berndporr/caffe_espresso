@@ -4,70 +4,6 @@ title: Deep Learning Framework
 
 # Caffe
 
-Caffe is a deep learning framework made with expression, speed, and modularity in mind.
-It is developed by Berkeley AI Research ([BAIR](http://bair.berkeley.edu)) and by community contributors.
-[Yangqing Jia](http://daggerfs.com) created the project during his PhD at UC Berkeley.
-Caffe is released under the [BSD 2-Clause license](https://github.com/BVLC/caffe/blob/master/LICENSE).
-
-Check out our web image classification [demo](http://demo.caffe.berkeleyvision.org)!
-
-## Why Caffe?
-
-**Expressive architecture** encourages application and innovation.
-Models and optimization are defined by configuration without hard-coding.
-Switch between CPU and GPU by setting a single flag to train on a GPU machine then deploy to commodity clusters or mobile devices.
-
-**Extensible code** fosters active development.
-In Caffe's first year, it has been forked by over 1,000 developers and had many significant changes contributed back.
-Thanks to these contributors the framework tracks the state-of-the-art in both code and models.
-
-**Speed** makes Caffe perfect for research experiments and industry deployment.
-Caffe can process **over 60M images per day** with a single NVIDIA K40 GPU\*.
-That's 1 ms/image for inference and 4 ms/image for learning and more recent library versions and hardware are faster still.
-We believe that Caffe is among the fastest convnet implementations available.
-
-**Community**: Caffe already powers academic research projects, startup prototypes, and even large-scale industrial applications in vision, speech, and multimedia.
-Join our community of brewers on the [caffe-users group](https://groups.google.com/forum/#!forum/caffe-users) and [Github](https://github.com/BVLC/caffe/).
-
-<p class="footnote" markdown="1">
-\* With the ILSVRC2012-winning [SuperVision](http://www.image-net.org/challenges/LSVRC/2012/supervision.pdf) model and prefetching IO.
-</p>
-
-## Documentation
-
-- [DIY Deep Learning for Vision with Caffe](https://docs.google.com/presentation/d/1UeKXVgRvvxg9OUdh_UiC5G71UMscNPlvArsWER41PsU/edit#slide=id.p) and [Caffe in a Day](https://docs.google.com/presentation/d/1HxGdeq8MPktHaPb-rlmYYQ723iWzq9ur6Gjo71YiG0Y/edit#slide=id.gc2fcdcce7_216_0)<br>
-Tutorial presentation of the framework and a full-day crash course.
-- [Tutorial Documentation](/tutorial)<br>
-Practical guide and framework reference.
-- [arXiv / ACM MM '14 paper](http://arxiv.org/abs/1408.5093)<br>
-A 4-page report for the ACM Multimedia Open Source competition (arXiv:1408.5093v1).
-- [Installation instructions](/installation.html)<br>
-Tested on Ubuntu, Red Hat, OS X.
-* [Model Zoo](/model_zoo.html)<br>
-BAIR suggests a standard distribution format for Caffe models, and provides trained models.
-* [Developing & Contributing](/development.html)<br>
-Guidelines for development and contributing to Caffe.
-* [API Documentation](/doxygen/annotated.html)<br>
-Developer documentation automagically generated from code comments.
-* [Benchmarking](https://docs.google.com/spreadsheets/d/1Yp4rqHpT7mKxOPbpzYeUfEFLnELDAgxSSBQKp5uKDGQ/edit#gid=0)<br>
-Comparison of inference and learning for different networks and GPUs.
-
-### Notebook Examples
-
-{% assign notebooks = site.pages | where:'category','notebook' | sort: 'priority' %}
-{% for page in notebooks %}
-- <div><a href="http://nbviewer.ipython.org/github/BVLC/caffe/blob/master/{{page.original_path}}">{{page.title}}</a><br>{{page.description}}</div>
-{% endfor %}
-
-### Command Line Examples
-
-{% assign examples = site.pages | where:'category','example' | sort: 'priority' %}
-{% for page in examples %}
-- <div><a href="{{page.url}}">{{page.title}}</a><br>{{page.description}}</div>
-{% endfor %}
-
-## Citing Caffe
-
 Please cite Caffe in your publications if it helps your research:
 
     @article{jia2014caffe,
@@ -78,12 +14,6 @@ Please cite Caffe in your publications if it helps your research:
     }
 
 If you do publish a paper where Caffe helped your research, we encourage you to cite the framework for tracking by [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&citation_for_view=-ltRSM0AAAAJ:u5HHmVD_uO8C).
-
-## Contacting Us
-
-Join the [caffe-users group](https://groups.google.com/forum/#!forum/caffe-users) to ask questions and discuss methods and models. This is where we talk about usage, installation, and applications.
-
-Framework development discussions and thorough bug reports are collected on [Issues](https://github.com/BVLC/caffe/issues).
 
 ## Acknowledgements
 
